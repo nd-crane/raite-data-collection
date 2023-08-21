@@ -13,7 +13,7 @@ We encourage teams to document their processes by opening issues in this reposit
 
 ## Getting Started
 
-To provide information about your team's setup, components, and ML pipeline steps, you'll find dedicated issue templates under the [Issues](https://github.com/nd-crane/raite-data-collection/issues) section and follow the steps: 
+To provide information about your team's setup, components, and ML pipeline steps, you'll find dedicated issue templates under the [Issues](https://github.com/nd-crane/raite-data-collection/issues) section, and from there, you can follow the steps:
 
 - Click on the `New Issue` button in the upper right of the screen. Each **Read** and **Blue** team will have its own issue template.
 - Select the appropriate issue template for your team. Each template contains detailed instructions and examples to guide you through the process.
