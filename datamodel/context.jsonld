@@ -1,0 +1,52 @@
+{
+    "@context": [
+      "http://www.w3.org/ns/anno.jsonld",
+      "http://www.w3.org/ns/prov.jsonld",
+      "http://spdx.org/rdf/terms",
+      {
+        "@vocab": "https://github.com/nd-crane/RAITE/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "attackEvent": {
+          "@id": "attackEvent",
+          "skos:prefLabel": "Attack Event",
+          "skos:definition": "A detailed representation of an attack initiated by the Red Team.",
+          "skos:example": "Digital attack event with method='SQL Injection', target='Database'"
+        },
+        "attackIndicator": {
+          "@id": "attackIndicator",
+          "skos:prefLabel": "Attack Indicator",
+          "skos:definition": "A binary representation indicating whether an attack was initiated.",
+          "skos:example": "1 for attack initiated, 0 for no attack"
+        },
+        "frameNumber": {
+          "@id": "frameNumber",
+          "skos:prefLabel": "Frame Number",
+          "skos:definition": "The number of the frame in the video feed.",
+          "skos:example": "Frame 200 of 3000"
+        },
+        "confidenceLevel": {
+          "@id": "confidenceLevel",
+          "skos:prefLabel": "Confidence Level",
+          "skos:definition": "Confidence level of the algorithm for each frame.",
+          "skos:example": "0.95"
+        },
+        "coordinates": {
+          "@id": "coordinates",
+          "skos:prefLabel": "Coordinates",
+          "skos:definition": "The coordinates of the tracking box for each object in the frame.",
+          "skos:example": "[x1, y1, x2, y2]"
+        },
+        "velocity": {
+          "@id": "velocity",
+          "skos:prefLabel": "Velocity",
+          "skos:definition": "The velocity of the tracking box for each object in the frame.",
+          "skos:example": "[dx/dt, dy/dt]"
+        },
+        "digitalAttack": "spdx:DigitalAttack",
+        "physicalAttack": "spdx:PhysicalAttack",
+        "prov:Activity": "prov:Activity",
+        "prov:Entity": "prov:Entity",
+        "prov:Agent": "prov:Agent"
+      }
+    ]
+  }  
