@@ -1,6 +1,6 @@
 # Robust Artificial Intelligence Test Event (RAITE) Data Collection
 
-Welcome to the RAITE Data Collection Repository! This repository contains templates for the upcoming event.
+Welcome to the RAITE Data Collection Repository! This repository contains templates for the upcoming event. This repository wasn't used for the event, but is archived as a provenance record.
 
 ## Event Overview
 
